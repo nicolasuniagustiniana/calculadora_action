@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/text_Respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numero4"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:hint="Escribe un numero"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_fibonacci2"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="fibonacci" />
+
+    <Button
+        android:id="@+id/button_atras2"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="atras" />
+
+</LinearLayout>
